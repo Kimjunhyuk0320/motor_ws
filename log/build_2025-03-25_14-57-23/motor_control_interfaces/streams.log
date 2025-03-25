@@ -1,0 +1,214 @@
+[0.024s] Invoking command in '/home/junhyuk/motor_ws/build/motor_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junhyuk/ros2_study/install/my_first_package:/home/junhyuk/ros2_ws/install/tutorial_topic:/home/junhyuk/ros2_ws/install/tutorial_service:/home/junhyuk/ros2_ws/install/tutorial_action:/home/junhyuk/ros2_ws/install/ros2_motor_control:/home/junhyuk/ros2_ws/install/ros2_camera_lidar_fusion:/home/junhyuk/ros2_ws/install/node_exercise:/home/junhyuk/ros2_ws/install/my_package:/home/junhyuk/ros2_ws/install/moving_services:/home/junhyuk/ros2_ws/install/logger_test:/home/junhyuk/ros2_ws/install/custom_interface_example:/opt/ros/humble /usr/bin/cmake /home/junhyuk/motor_ws/src/motor_control_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/junhyuk/motor_ws/install/motor_control_interfaces
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.234s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.385s] -- Detecting C compiler ABI info - done
+[0.397s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.398s] -- Detecting C compile features
+[0.398s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.565s] -- Detecting CXX compiler ABI info - done
+[0.578s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.578s] -- Detecting CXX compile features
+[0.579s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.945s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.078s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.191s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.320s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.339s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.363s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.436s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.558s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.568s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.784s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.847s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.944s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.973s] -- Looking for pthread.h
+[2.116s] -- Looking for pthread.h - found
+[2.117s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.263s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.265s] -- Found Threads: TRUE  
+[2.379s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.407s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.102s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.812s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.151s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.158s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.220s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.220s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.220s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.220s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.274s] -- Found PythonExtra: .so  
+[4.379s] -- Added test 'lint_cmake' to check CMake code style
+[4.383s] -- Added test 'xmllint' to check XML markup files
+[4.395s] -- Configuring done
+[4.462s] -- Generating done
+[4.483s] -- Build files have been written to: /home/junhyuk/motor_ws/build/motor_control_interfaces
+[4.515s] Invoked command in '/home/junhyuk/motor_ws/build/motor_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junhyuk/ros2_study/install/my_first_package:/home/junhyuk/ros2_ws/install/tutorial_topic:/home/junhyuk/ros2_ws/install/tutorial_service:/home/junhyuk/ros2_ws/install/tutorial_action:/home/junhyuk/ros2_ws/install/ros2_motor_control:/home/junhyuk/ros2_ws/install/ros2_camera_lidar_fusion:/home/junhyuk/ros2_ws/install/node_exercise:/home/junhyuk/ros2_ws/install/my_package:/home/junhyuk/ros2_ws/install/moving_services:/home/junhyuk/ros2_ws/install/logger_test:/home/junhyuk/ros2_ws/install/custom_interface_example:/opt/ros/humble /usr/bin/cmake /home/junhyuk/motor_ws/src/motor_control_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/junhyuk/motor_ws/install/motor_control_interfaces
+[4.519s] Invoking command in '/home/junhyuk/motor_ws/build/motor_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junhyuk/ros2_study/install/my_first_package:/home/junhyuk/ros2_ws/install/tutorial_topic:/home/junhyuk/ros2_ws/install/tutorial_service:/home/junhyuk/ros2_ws/install/tutorial_action:/home/junhyuk/ros2_ws/install/ros2_motor_control:/home/junhyuk/ros2_ws/install/ros2_camera_lidar_fusion:/home/junhyuk/ros2_ws/install/node_exercise:/home/junhyuk/ros2_ws/install/my_package:/home/junhyuk/ros2_ws/install/moving_services:/home/junhyuk/ros2_ws/install/logger_test:/home/junhyuk/ros2_ws/install/custom_interface_example:/opt/ros/humble /usr/bin/cmake --build /home/junhyuk/motor_ws/build/motor_control_interfaces -- -j16 -l16
+[4.622s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.650s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.676s] [  6%] Built target ament_cmake_python_symlink_motor_control_interfaces
+[5.223s] running egg_info
+[5.224s] creating motor_control_interfaces.egg-info
+[5.224s] writing motor_control_interfaces.egg-info/PKG-INFO
+[5.224s] writing dependency_links to motor_control_interfaces.egg-info/dependency_links.txt
+[5.225s] writing top-level names to motor_control_interfaces.egg-info/top_level.txt
+[5.225s] writing manifest file 'motor_control_interfaces.egg-info/SOURCES.txt'
+[5.229s] reading manifest file 'motor_control_interfaces.egg-info/SOURCES.txt'
+[5.229s] writing manifest file 'motor_control_interfaces.egg-info/SOURCES.txt'
+[5.279s] [  6%] Built target ament_cmake_python_build_motor_control_interfaces_egg
+[5.452s] [  9%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motor_control_interfaces/action/detail/angle_control__functions.c.o[0m
+[5.518s] [  9%] Built target motor_control_interfaces__cpp
+[5.539s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.539s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.540s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.674s] [ 22%] [32m[1mLinking C shared library libmotor_control_interfaces__rosidl_generator_c.so[0m
+[5.750s] [ 22%] Built target motor_control_interfaces__rosidl_generator_c
+[5.771s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.771s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.771s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.148s] [ 35%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_control_interfaces/action/angle_control__type_support.cpp.o[0m
+[6.220s] [ 38%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_control_interfaces/action/detail/angle_control__type_support.cpp.o[0m
+[6.283s] [ 41%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_control_interfaces/action/detail/dds_fastrtps/angle_control__type_support.cpp.o[0m
+[6.348s] [ 45%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_control_interfaces/action/angle_control__type_support.cpp.o[0m
+[6.435s] [ 48%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_c.so[0m
+[6.475s] [ 51%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_control_interfaces/action/detail/angle_control__type_support.c.o[0m
+[6.517s] [ 54%] [32mBuilding CXX object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_control_interfaces/action/detail/angle_control__type_support_c.cpp.o[0m
+[6.517s] [ 54%] Built target motor_control_interfaces__rosidl_typesupport_c
+[6.564s] [ 58%] [32m[1mLinking C shared library libmotor_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.627s] [ 58%] Built target motor_control_interfaces__rosidl_typesupport_introspection_c
+[6.867s] [ 61%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_cpp.so[0m
+[6.954s] [ 61%] Built target motor_control_interfaces__rosidl_typesupport_cpp
+[7.156s] [ 64%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.168s] [ 67%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.201s] [ 70%] [32m[1mLinking CXX shared library libmotor_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.328s] [ 70%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_c
+[7.339s] [ 70%] Built target motor_control_interfaces__rosidl_typesupport_introspection_cpp
+[7.376s] [ 70%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.423s] [ 70%] Built target motor_control_interfaces
+[7.473s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.886s] [ 74%] Built target motor_control_interfaces__py
+[8.934s] [ 77%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motor_control_interfaces/action/_angle_control_s.c.o[0m
+[9.212s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/libmotor_control_interfaces__rosidl_generator_py.so[0m
+[9.304s] [ 80%] Built target motor_control_interfaces__rosidl_generator_py
+[9.354s] [ 87%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.355s] [ 87%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.356s] [ 90%] [32mBuilding C object CMakeFiles/motor_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.583s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.583s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.585s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.668s] [100%] Built target motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.669s] [100%] Built target motor_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.669s] [100%] Built target motor_control_interfaces__rosidl_typesupport_c__pyext
+[9.698s] Invoked command in '/home/junhyuk/motor_ws/build/motor_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junhyuk/ros2_study/install/my_first_package:/home/junhyuk/ros2_ws/install/tutorial_topic:/home/junhyuk/ros2_ws/install/tutorial_service:/home/junhyuk/ros2_ws/install/tutorial_action:/home/junhyuk/ros2_ws/install/ros2_motor_control:/home/junhyuk/ros2_ws/install/ros2_camera_lidar_fusion:/home/junhyuk/ros2_ws/install/node_exercise:/home/junhyuk/ros2_ws/install/my_package:/home/junhyuk/ros2_ws/install/moving_services:/home/junhyuk/ros2_ws/install/logger_test:/home/junhyuk/ros2_ws/install/custom_interface_example:/opt/ros/humble /usr/bin/cmake --build /home/junhyuk/motor_ws/build/motor_control_interfaces -- -j16 -l16
+[9.723s] Invoking command in '/home/junhyuk/motor_ws/build/motor_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junhyuk/ros2_study/install/my_first_package:/home/junhyuk/ros2_ws/install/tutorial_topic:/home/junhyuk/ros2_ws/install/tutorial_service:/home/junhyuk/ros2_ws/install/tutorial_action:/home/junhyuk/ros2_ws/install/ros2_motor_control:/home/junhyuk/ros2_ws/install/ros2_camera_lidar_fusion:/home/junhyuk/ros2_ws/install/node_exercise:/home/junhyuk/ros2_ws/install/my_package:/home/junhyuk/ros2_ws/install/moving_services:/home/junhyuk/ros2_ws/install/logger_test:/home/junhyuk/ros2_ws/install/custom_interface_example:/opt/ros/humble /usr/bin/cmake --install /home/junhyuk/motor_ws/build/motor_control_interfaces
+[9.739s] -- Install configuration: ""
+[9.740s] -- Execute custom install script
+[9.741s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/motor_control_interfaces
+[9.764s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/angle_control.h
+[9.785s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__functions.h
+[9.804s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__struct.h
+[9.823s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__type_support.h
+[9.845s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.871s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/library_path.sh
+[9.896s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/library_path.dsv
+[9.921s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__rosidl_typesupport_fastrtps_c.h
+[9.947s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.971s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/angle_control.hpp
+[9.995s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__builder.hpp
+[10.015s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__struct.hpp
+[10.035s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__traits.hpp
+[10.055s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__type_support.hpp
+[10.073s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.093s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__rosidl_typesupport_fastrtps_cpp.hpp
+[10.113s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.134s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__rosidl_typesupport_introspection_c.h
+[10.153s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.172s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/include/motor_control_interfaces/motor_control_interfaces/action/detail/angle_control__rosidl_typesupport_introspection_cpp.hpp
+[10.191s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/pythonpath.sh
+[10.210s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/pythonpath.dsv
+[10.231s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.250s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.270s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.289s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.309s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/__init__.py
+[10.329s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_c.c
+[10.347s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.369s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.389s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/action/__init__.py
+[10.408s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/action/_angle_control.py
+[10.427s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/action/_angle_control_s.c
+[10.447s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/libmotor_control_interfaces__rosidl_generator_py.so
+[10.466s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.484s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.502s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.522s] -- Up-to-date symlink: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.522s] -- Up-to-date symlink: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.523s] -- Up-to-date symlink: /home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/motor_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.523s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/action/AngleControl.idl
+[10.542s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/action/AngleControl.action
+[10.560s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/ament_index/resource_index/package_run_dependencies/motor_control_interfaces
+[10.579s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/ament_index/resource_index/parent_prefix_path/motor_control_interfaces
+[10.598s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/ament_prefix_path.sh
+[10.616s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/ament_prefix_path.dsv
+[10.636s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/path.sh
+[10.656s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/environment/path.dsv
+[10.674s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.bash
+[10.692s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.sh
+[10.711s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.zsh
+[10.730s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/local_setup.dsv
+[10.749s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/package.dsv
+[10.769s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/ament_index/resource_index/packages/motor_control_interfaces
+[10.788s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.807s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.824s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.844s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.864s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.884s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.902s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.921s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfacesConfig.cmake
+[10.941s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfacesConfig-version.cmake
+[10.959s] -- Symlinking: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/package.xml
+[10.978s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_c.so
+[10.980s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_c.so" to ""
+[10.980s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.981s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.981s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.983s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.983s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_c.so
+[10.984s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.984s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_c.so
+[10.985s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_c.so" to ""
+[10.985s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.986s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.986s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_cpp.so
+[10.988s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.081s] Listing '/home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces'...
+[11.081s] Compiling '/home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/__init__.py'...
+[11.081s] Listing '/home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/action'...
+[11.081s] Compiling '/home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/action/__init__.py'...
+[11.082s] Compiling '/home/junhyuk/motor_ws/install/motor_control_interfaces/local/lib/python3.10/dist-packages/motor_control_interfaces/action/_angle_control.py'...
+[11.090s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_py.so
+[11.091s] -- Set runtime path of "/home/junhyuk/motor_ws/install/motor_control_interfaces/lib/libmotor_control_interfaces__rosidl_generator_py.so" to ""
+[11.091s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_generator_cExport.cmake
+[11.091s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.092s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.092s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.092s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_generator_cppExport.cmake
+[11.093s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.093s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.093s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.094s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.094s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cExport.cmake
+[11.094s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.094s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.095s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.095s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cppExport.cmake
+[11.095s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/motor_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.096s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_generator_pyExport.cmake
+[11.096s] -- Installing: /home/junhyuk/motor_ws/install/motor_control_interfaces/share/motor_control_interfaces/cmake/export_motor_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.102s] Invoked command in '/home/junhyuk/motor_ws/build/motor_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/junhyuk/ros2_study/install/my_first_package:/home/junhyuk/ros2_ws/install/tutorial_topic:/home/junhyuk/ros2_ws/install/tutorial_service:/home/junhyuk/ros2_ws/install/tutorial_action:/home/junhyuk/ros2_ws/install/ros2_motor_control:/home/junhyuk/ros2_ws/install/ros2_camera_lidar_fusion:/home/junhyuk/ros2_ws/install/node_exercise:/home/junhyuk/ros2_ws/install/my_package:/home/junhyuk/ros2_ws/install/moving_services:/home/junhyuk/ros2_ws/install/logger_test:/home/junhyuk/ros2_ws/install/custom_interface_example:/opt/ros/humble /usr/bin/cmake --install /home/junhyuk/motor_ws/build/motor_control_interfaces

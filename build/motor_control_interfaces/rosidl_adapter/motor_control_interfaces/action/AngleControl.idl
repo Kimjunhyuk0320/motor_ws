@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from motor_control_interfaces/action/AngleControl.action
+// generated code does not contain a copyright notice
+
+
+module motor_control_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Request (Goal)")
+    struct AngleControl_Goal {
+      @verbatim (language="comment", text=
+        "모터 CAN ID (1~32)")
+      uint8 motor_id;
+
+      @verbatim (language="comment", text=
+        "회전 속도 (단위: dps, 1LSB = 1dps)")
+      uint16 speed_dps;
+
+      @verbatim (language="comment", text=
+        "이동할 각도 (degree)")
+      float angle_deg;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct AngleControl_Result {
+      @verbatim (language="comment", text=
+        "성공 여부")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "모터가 멈췄을 때의 실제 현재 각도 (degree)")
+      float current_angle;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct AngleControl_Feedback {
+      @verbatim (language="comment", text=
+        "남은 회전 각도 (degree)")
+      float remaining;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+{
+  "package_name": "motor_control_interfaces",
+  "non_idl_tuples": [
+    "/home/junhyuk/motor_ws/src/motor_control_interfaces:action/AngleControl.action"
+  ]
+}

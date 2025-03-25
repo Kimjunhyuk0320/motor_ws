@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "motor_control_interfaces__py",
+		"source" : "/home/junhyuk/motor_ws/build/motor_control_interfaces/motor_control_interfaces__py"
+	}
+}
