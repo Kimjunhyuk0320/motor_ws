@@ -1,0 +1,13 @@
+# Request (Goal)
+uint8 motor_id              # 모터 CAN ID (1~32)
+uint16 speed_dps            # 회전 속도 (단위: dps, 1LSB = 1dps)
+float32 angle_deg           # 이동할 각도 (degree)
+
+---
+# Result
+bool success                # 성공 여부
+float32 current_angle   # 모터가 멈췄을 때의 실제 현재 각도 (degree)
+
+---
+# Feedback
+float32 remaining # 남은 회전 각도 (degree)

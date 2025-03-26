@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f43328c55bdf68b1439c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "motor_control_interfaces__py",
+					"jsonFile" : "directory-motor_control_interfaces__py-a91da0a182fe9d1b3a43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/junhyuk/motor_ws/build/motor_control_interfaces/motor_control_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "motor_control_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_motor_control_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_motor_control_interfaces_egg-786cd1bdef6221ad8d14.json",
+					"name" : "ament_cmake_python_build_motor_control_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_motor_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_motor_control_interfaces-4d42575541583de38ec8.json",
+					"name" : "ament_cmake_python_symlink_motor_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces-f6abc19582dd317366e9.json",
+					"name" : "motor_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__cpp-c5f9603b22eaddc5e583.json",
+					"name" : "motor_control_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "motor_control_interfaces__py::@fbb178f1b910f330d8d0",
+					"jsonFile" : "target-motor_control_interfaces__py-e77137de6efd8170a1c0.json",
+					"name" : "motor_control_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_generator_c-f5b0eb607808289ab50e.json",
+					"name" : "motor_control_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_generator_py-c7099b564013cf928316.json",
+					"name" : "motor_control_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_c-8f7ce39f7b4a6dd02c36.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_c__pyext-39fe50ed492f2f6758ef.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_cpp-0379b4ebbc5bda9ba44a.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_fastrtps_c-8ef956897ccdfdf0ac1f.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext-408d38cdd2afb3b5f971.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_fastrtps_cpp-d3124b3568769838e8d8.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_introspection_c-7fec32cc995a27bb94c7.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_introspection_c__pyext-ff75e6da8dc5160a6b4f.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces__rosidl_typesupport_introspection_cpp-a2888ce9f32508108e36.json",
+					"name" : "motor_control_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_control_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_control_interfaces_uninstall-c104b462f34bad45e37e.json",
+					"name" : "motor_control_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-87cf3ec69b2111dca496.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/junhyuk/motor_ws/build/motor_control_interfaces",
+		"source" : "/home/junhyuk/motor_ws/src/motor_control_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
