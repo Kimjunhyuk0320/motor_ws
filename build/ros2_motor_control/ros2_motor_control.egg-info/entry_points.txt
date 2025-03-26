@@ -1,4 +1,0 @@
-[console_scripts]
-angle_increment_action_server = ros2_motor_control.angle_increment_action_server:main
-motor_control_node = ros2_motor_control.motor_control:main
-

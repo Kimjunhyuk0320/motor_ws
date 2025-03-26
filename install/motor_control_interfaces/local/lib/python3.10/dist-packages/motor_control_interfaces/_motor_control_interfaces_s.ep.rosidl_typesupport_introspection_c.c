@@ -1,1 +1,0 @@
-/home/junhyuk/motor_ws/build/motor_control_interfaces/rosidl_generator_py/motor_control_interfaces/_motor_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
